@@ -226,8 +226,8 @@ sortChangeButton.addEventListener('click', () => {
 });
 
 sortActionButton.addEventListener('click', () => {
-  const sort = sortAPI[sortKind];                     
-  sortAPI.startSort(sort, fruits, comparationColor);  
+  const sort = sortAPI[sortKind];
+  sortAPI.startSort(sort, fruits, comparationColor);
   sortTimeLabel.textContent = sortTime;
   display();
 });
